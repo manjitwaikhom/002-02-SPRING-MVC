@@ -17,7 +17,7 @@ public class CourseController{
 	@Autowired
 	private CourseService cs;
 
-	@RequestMapping(value="/course.jlc")
+	@RequestMapping(value="/course.mjt")
 	protected String getCourses(HttpServletRequest request,
 			HttpServletResponse response) throws Exception {
 		ArrayList<String> al=cs.getCourses();

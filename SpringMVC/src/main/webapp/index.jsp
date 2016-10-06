@@ -10,7 +10,7 @@
 </head>
 
 <body>
-<a href="<c:url value="course.jlc"/>">Show JAVA Courses</a></form>
+<a href="<c:url value="course.mjt"/>">Show JAVA Courses</a></form>
 </body>
 </center>
 </html>

@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
-<%@ taglib prefix="jlc" uri="http://java.sun.com/jsp/jstl/core"  %>
+<%@ taglib prefix="mjt" uri="http://java.sun.com/jsp/jstl/core"  %>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -9,10 +9,10 @@
 <h1>Course Information</h1>
 </head>
 <body>
-<ul><jlc:forEach var="cou" items="${AL}">
+<ul><mjt:forEach var="cou" items="${AL}">
 <li><h2>${cou}</h2></li>
 
-</jlc:forEach>
+</mjt:forEach>
 </ul>
 </body>
 </html>

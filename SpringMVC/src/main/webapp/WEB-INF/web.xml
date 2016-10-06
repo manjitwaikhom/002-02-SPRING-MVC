@@ -3,13 +3,13 @@
   <display-name>SpringMVC</display-name>
   
   <servlet>
-    <servlet-name>jlcindia</servlet-name>
+    <servlet-name>mjtindia</servlet-name>
     <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
     <load-on-startup>1</load-on-startup>
   </servlet>
   <servlet-mapping>
-    <servlet-name>jlcindia</servlet-name>
-    <url-pattern>*.jlc</url-pattern>
+    <servlet-name>mjtindia</servlet-name>
+    <url-pattern>*.mjt</url-pattern>
   </servlet-mapping>
   
   <welcome-file-list>
