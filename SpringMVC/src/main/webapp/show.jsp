@@ -5,14 +5,19 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link rel="stylesheet"  type="text/css" href="css/style.css">
 <title>show courses</title>
-<h1>Course Information</h1>
+
 </head>
+
 <body>
+<div class="container">
+<h1 class="txtheader">Course Information</h1>
 <ul><mjt:forEach var="cou" items="${AL}">
 <li><h2>${cou}</h2></li>
 
 </mjt:forEach>
 </ul>
+</div>
 </body>
 </html>

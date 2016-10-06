@@ -5,12 +5,18 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Spring Pilot</title><center>
-<br><h1>Waikhom JAVA Courses</h1></br>
+<link rel="stylesheet"  type="text/css" href="css/style.css">
+<title>Spring MVC</title>
 </head>
 
 <body>
-<a href="<c:url value="course.mjt"/>">Show JAVA Courses</a></form>
+<div class="container">
+<h1 class="txtheader">Spring MVC</h1>
+<hr>
+<form><a href="<c:url value="course.mjt"/>">Show JAVA Courses</a></form>
+<br>
+</div>
 </body>
-</center>
+
+
 </html>

@@ -1,0 +1,26 @@
+.txtgrey {
+	color: #5D6D7E;
+}
+.txtheader{
+	color: #5D6D7E;
+	text-shadow: 2px 2px #D5D8DC;
+	
+}
+
+body {
+    background-color: #F8F9F9;
+}
+
+.container {
+	border-radius: 5px;
+	text-align: center;
+	margin-top: 90px;
+	margin-bottom: 90px;
+	margin-right: 90px;
+	margin-left: 90px;
+	border-style: solid ;
+    border-color: #E5E8E8;
+    border-width: 1px;
+    box-shadow: 3px 3px 3px #888888;
+    background-color:#FDFEFE;
+}
