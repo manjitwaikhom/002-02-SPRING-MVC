@@ -13,6 +13,7 @@
 <body>
 <div class="container">
 <h1 class="txtheader">Course Information</h1>
+<hr>
 <ul><mjt:forEach var="cou" items="${AL}">
 <li><h2>${cou}</h2></li>
 
