@@ -13,7 +13,7 @@
 <div class="container">
 <h1 class="txtheader">Spring MVC</h1>
 <hr>
-<form><a href="<c:url value="course.mjt"/>">Show JAVA Courses</a></form>
+<form><a href="<c:url value="courses.mjt"/>">Show JAVA Courses</a></form>
 <br>
 </div>
 </body>
