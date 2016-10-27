@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" version="3.0">
-  <display-name>SpringMVC</display-name>
-  
+  <display-name>002-02-SPRING MVC</display-name>
   <servlet>
     <servlet-name>mjtindia</servlet-name>
     <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
@@ -11,7 +10,6 @@
     <servlet-name>mjtindia</servlet-name>
     <url-pattern>*.mjt</url-pattern>
   </servlet-mapping>
-  
   <welcome-file-list>
     <welcome-file>index.jsp</welcome-file>
   </welcome-file-list>
